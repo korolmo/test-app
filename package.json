@@ -1,0 +1,27 @@
+{
+  "name": "polygon-editor",
+  "version": "1.0.0",
+  "description": "Polygon editor test assignment bootstrap with Web Components and webpack.",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
+  },
+  "keywords": [
+    "webpack",
+    "web-components",
+    "polygon-editor"
+  ],
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.5",
+    "babel-loader": "^10.1.1",
+    "css-loader": "^7.1.4",
+    "html-webpack-plugin": "^5.6.7",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.107.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.4"
+  }
+}
